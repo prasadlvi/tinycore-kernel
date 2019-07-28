@@ -6,7 +6,7 @@
 #		make kernel extensions os
 # 	make all
 
-MODULES ?= all base filesystems ipv6 mtd netfilter raid-dm scsi net-bridging
+MODULES ?= raid-dm scsi
 KERNEL ?= 4.19.10
 KERNEL_ARCH ?= x86_64
 KERNEL_SOURCE ?= https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.10.tar.xz
