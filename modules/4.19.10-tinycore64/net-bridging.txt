@@ -21,3 +21,5 @@
 ./kernel/net/bridge/netfilter/ebtable_filter.ko.gz
 ./kernel/net/bridge/netfilter/ebtable_nat.ko.gz
 ./kernel/net/bridge/netfilter/ebtables.ko.gz
+./kernel/net/bridge/netfilter/nf_log_bridge.ko.gz
+./kernel/net/bridge/netfilter/nft_reject_bridge.ko.gz
