@@ -16,6 +16,8 @@
 ./kernel/drivers/scsi/dmx3191d.ko.gz
 ./kernel/drivers/scsi/dpt_i2o.ko.gz
 ./kernel/drivers/scsi/esp_scsi.ko.gz
+./kernel/drivers/scsi/fdomain.ko.gz
+./kernel/drivers/scsi/fdomain_pci.ko.gz
 ./kernel/drivers/scsi/gdth.ko.gz
 ./kernel/drivers/scsi/hpsa.ko.gz
 ./kernel/drivers/scsi/hptiop.ko.gz
@@ -27,6 +29,8 @@
 ./kernel/drivers/scsi/iscsi_tcp.ko.gz
 ./kernel/drivers/scsi/libiscsi.ko.gz
 ./kernel/drivers/scsi/libiscsi_tcp.ko.gz
+./kernel/drivers/scsi/myrb.ko.gz
+./kernel/drivers/scsi/myrs.ko.gz
 ./kernel/drivers/scsi/pmcraid.ko.gz
 ./kernel/drivers/scsi/ppa.ko.gz
 ./kernel/drivers/scsi/qla1280.ko.gz
@@ -51,10 +55,9 @@
 ./kernel/drivers/scsi/qedf/qedf.ko.gz
 ./kernel/drivers/scsi/pm8001/pm80xx.ko.gz
 ./kernel/drivers/scsi/pcmcia/aha152x_cs.ko.gz
+./kernel/drivers/scsi/pcmcia/fdomain_cs.ko.gz
 ./kernel/drivers/scsi/pcmcia/qlogic_cs.ko.gz
 ./kernel/drivers/scsi/pcmcia/sym53c500_cs.ko.gz
-./kernel/drivers/scsi/osd/libosd.ko.gz
-./kernel/drivers/scsi/osd/osd.ko.gz
 ./kernel/drivers/scsi/mvsas/mvsas.ko.gz
 ./kernel/drivers/scsi/mpt3sas/mpt3sas.ko.gz
 ./kernel/drivers/scsi/megaraid/megaraid_mbox.ko.gz

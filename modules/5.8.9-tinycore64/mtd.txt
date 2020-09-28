@@ -1,3 +1,4 @@
+./kernel/drivers/mtd/ftl.ko.gz
 ./kernel/drivers/mtd/inftl.ko.gz
 ./kernel/drivers/mtd/mtd.ko.gz
 ./kernel/drivers/mtd/mtd_blkdevs.ko.gz
@@ -5,11 +6,8 @@
 ./kernel/drivers/mtd/mtdblock_ro.ko.gz
 ./kernel/drivers/mtd/mtdswap.ko.gz
 ./kernel/drivers/mtd/nftl.ko.gz
-./kernel/drivers/mtd/redboot.ko.gz
 ./kernel/drivers/mtd/rfd_ftl.ko.gz
 ./kernel/drivers/mtd/ssfdc.ko.gz
-./kernel/drivers/mtd/ar7part.ko.gz
-./kernel/drivers/mtd/ftl.ko.gz
 ./kernel/drivers/mtd/ubi/ubi.ko.gz
 ./kernel/drivers/mtd/tests/mtd_nandbiterrs.ko.gz
 ./kernel/drivers/mtd/tests/mtd_nandecctest.ko.gz
@@ -20,14 +18,15 @@
 ./kernel/drivers/mtd/tests/mtd_stresstest.ko.gz
 ./kernel/drivers/mtd/tests/mtd_subpagetest.ko.gz
 ./kernel/drivers/mtd/tests/mtd_torturetest.ko.gz
-./kernel/drivers/mtd/spi-nor/mtk-quadspi.ko.gz
-./kernel/drivers/mtd/spi-nor/spi-nor.ko.gz
+./kernel/drivers/mtd/parsers/ar7part.ko.gz
+./kernel/drivers/mtd/parsers/redboot.ko.gz
+./kernel/drivers/mtd/nand/nandcore.ko.gz
 ./kernel/drivers/mtd/nand/raw/cafe_nand.ko.gz
 ./kernel/drivers/mtd/nand/raw/denali.ko.gz
 ./kernel/drivers/mtd/nand/raw/denali_pci.ko.gz
 ./kernel/drivers/mtd/nand/raw/diskonchip.ko.gz
+./kernel/drivers/mtd/nand/raw/mxic_nand.ko.gz
 ./kernel/drivers/mtd/nand/raw/nand.ko.gz
-./kernel/drivers/mtd/nand/raw/nand_bch.ko.gz
 ./kernel/drivers/mtd/nand/raw/nand_ecc.ko.gz
 ./kernel/drivers/mtd/nand/raw/nandsim.ko.gz
 ./kernel/drivers/mtd/nand/raw/plat_nand.ko.gz
@@ -40,7 +39,6 @@
 ./kernel/drivers/mtd/maps/ichxrom.ko.gz
 ./kernel/drivers/mtd/maps/intel_vr_nor.ko.gz
 ./kernel/drivers/mtd/maps/l440gx.ko.gz
-./kernel/drivers/mtd/maps/latch-addr-flash.ko.gz
 ./kernel/drivers/mtd/maps/map_funcs.ko.gz
 ./kernel/drivers/mtd/maps/nettel.ko.gz
 ./kernel/drivers/mtd/maps/pci.ko.gz
