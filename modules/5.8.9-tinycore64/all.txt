@@ -20,6 +20,7 @@
 ./kernel/drivers/acpi/sbs.ko.gz
 ./kernel/drivers/acpi/sbshc.ko.gz
 ./kernel/drivers/acpi/video.ko.gz
+./kernel/drivers/amazon/net/ena/ena.ko.gz
 ./kernel/drivers/bcma/bcma.ko.gz
 ./kernel/drivers/block/aoe/aoe.ko.gz
 ./kernel/drivers/block/floppy.ko.gz
