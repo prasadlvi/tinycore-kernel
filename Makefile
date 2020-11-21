@@ -98,6 +98,7 @@ os:
 	cp -rp $(WORKDIR)/modules-base/usr/local/lib/modules/$(kernelname)/kernel lib/modules/$(kernelname)/
 	cd $(WORKDIR)/modules-$(KERNEL)/lib/modules/$(kernelname) && \
 	cp modules.alias modules.dep $(WORKDIR)/os-$(osfile)/lib/modules/$(kernelname)/
+	mv $(WORKDIR)/os-$(osfile)/usr/local/lib/modules/5.4.3-tinycore64 $(WORKDIR)/os-$(osfile)/usr/local/lib/modules/$(kernelname)
 	ln -sf /usr/local/lib/modules/$(kernelname)/kernel $(WORKDIR)/os-$(osfile)/lib/modules/$(kernelname)/kernel.tclocal
 	cd $(WORKDIR)/os-$(osfile)/lib/modules/$(kernelname) && \
 	sed -i 's/.ko/.ko.gz/g' modules.dep
