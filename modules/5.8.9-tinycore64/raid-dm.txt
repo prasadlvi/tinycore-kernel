@@ -1,7 +1,7 @@
-./kernel/lib/raid6/raid6_pq.ko.gz
+./kernel/drivers/dax/dax.ko.gz
+./kernel/drivers/md/bcache/bcache.ko.gz
 ./kernel/drivers/md/dm-bufio.ko.gz
 ./kernel/drivers/md/dm-crypt.ko.gz
-./kernel/drivers/md/dm-integrity.ko.gz
 ./kernel/drivers/md/dm-log.ko.gz
 ./kernel/drivers/md/dm-mirror.ko.gz
 ./kernel/drivers/md/dm-mod.ko.gz
@@ -11,8 +11,6 @@
 ./kernel/drivers/md/dm-round-robin.ko.gz
 ./kernel/drivers/md/dm-service-time.ko.gz
 ./kernel/drivers/md/dm-snapshot.ko.gz
-./kernel/drivers/md/dm-unstripe.ko.gz
-./kernel/drivers/md/dm-writecache.ko.gz
 ./kernel/drivers/md/dm-zero.ko.gz
 ./kernel/drivers/md/faulty.ko.gz
 ./kernel/drivers/md/linear.ko.gz
@@ -22,4 +20,4 @@
 ./kernel/drivers/md/raid1.ko.gz
 ./kernel/drivers/md/raid10.ko.gz
 ./kernel/drivers/md/raid456.ko.gz
-./kernel/drivers/md/bcache/bcache.ko.gz
+./kernel/lib/raid6/raid6_pq.ko.gz

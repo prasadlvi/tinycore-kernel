@@ -16,12 +16,10 @@
 ./kernel/crypto/seqiv.ko.gz
 ./kernel/crypto/xor.ko.gz
 ./kernel/drivers/acpi/ac.ko.gz
-./kernel/drivers/acpi/acpi_ipmi.ko.gz
 ./kernel/drivers/acpi/battery.ko.gz
 ./kernel/drivers/acpi/sbs.ko.gz
 ./kernel/drivers/acpi/sbshc.ko.gz
 ./kernel/drivers/acpi/video.ko.gz
-./kernel/drivers/amazon/net/ena/ena.ko.gz
 ./kernel/drivers/bcma/bcma.ko.gz
 ./kernel/drivers/block/aoe/aoe.ko.gz
 ./kernel/drivers/block/floppy.ko.gz
@@ -447,8 +445,6 @@
 ./kernel/lib/ts_bm.ko.gz
 ./kernel/lib/ts_fsm.ko.gz
 ./kernel/lib/ts_kmp.ko.gz
-./kernel/lib/xxhash.ko.gz
-./kernel/lib/zstd/zstd_decompress.ko.gz
 ./kernel/net/802/garp.ko.gz
 ./kernel/net/802/mrp.ko.gz
 ./kernel/net/802/p8022.ko.gz
