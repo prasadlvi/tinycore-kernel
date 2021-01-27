@@ -6,7 +6,7 @@
 #		make kernel extensions os
 # 	make all
 
-MODULES ?= all base filesystems ipv6-netfilter mtd raid-dm scsi
+MODULES ?= all base filesystems ipv6-netfilter mtd raid-dm scsi input-joystick alsa-modules
 KERNEL ?= 5.8.9
 KERNEL_ARCH ?= x86_64
 KERNEL_SOURCE ?= https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.8.9.tar.xz
